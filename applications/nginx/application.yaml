@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/kdlug/argocd-applications
+    repoURL: https://github.com/kdlug/argocd-demo
     targetRevision: HEAD
-    path: applications/nginx
+    path: nginx/yaml
     #directory:
     #  recurse: true
   destination:
