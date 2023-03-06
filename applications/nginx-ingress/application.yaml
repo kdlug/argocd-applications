@@ -16,6 +16,8 @@ spec:
           value: IfNotPresent
       #valueFiles:
       #  - values/production.yaml 
+  syncPolicy:
+    automated: {}
   destination:
     server: https://kubernetes.default.svc
     namespace: default
